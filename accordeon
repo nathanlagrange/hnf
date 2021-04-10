@@ -1,0 +1,81 @@
+<div class="accordion">
+  <div class="accordion-item">
+    <div class="accordion-item-header" id="headerquest1">
+      <span>Comment devenir adhérent ?</span>
+      <span class="icon"></span>
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+        <p>
+          Devenir adhérent chez Help'n Fiesta est très <b>simple</b> et entièrement <b>gratuit</b>.
+        </p>
+        <br />
+        <p>
+          Rends-toi directement sur la page <a href="/adherer"><b><u>Adhérer</u></b></a>.
+        </p>
+        <br />
+        <p>
+          Il te suffira de remplir le formulaire d'inscription et un e-mail de confirmation 
+          te sera transmis rapidement pour activer ton compte.
+          Pour gérer tes informations de compte ou le supprimer, il est possible de le faire
+          dans ton espace adhérent.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="accordion">
+  <div class="accordion-item">
+    <div class="accordion-item-header" id="headerquest2">
+      <span>Comment faire une donation ?</span>
+      <span class="icon"></span>
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+        <p>Notre système de donation fonctionne indépendamment du site, via la plateforme Hello'Asso</p>
+        <br/>
+        <p>
+          Pour toute donation, cela se déroule via la page <a href="/faireundon"><b><u>Faire un Don</u></b></a>.
+          <br>
+          Aucune information n'est utilisée pour notre association via cette plateforme.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="accordion">
+  <div class="accordion-item">
+    <div class="accordion-item-header" id="headerquest3">
+      <span>Comment est utilisée l'argent des donations ?</span>
+      <span class="icon"></span>
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+        <p>Tous les dons récoltés sur Hello'Asso et lors nos évènements sont reversés à nos partenaires 
+          (<a href="https://www.facebook.com/Thatez-Vous-1502885016492722/"><u>T'hâtez-Vous</u></a>,
+          APPCF, ...) et réutilisés pour organiser de prochains évènements. Notre association n'existe que grâce à toi !
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="accordion">
+  <div class="accordion-item">
+    <div class="accordion-item-header" id="headerquest4">
+      <span>Utilisation des données</span>
+      <span class="icon"></span>
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+        <p>Nous n'utilisons pas les données renseignés par les adhérents comme le nom, prénom et adresse e-mail dans un but commercial
+        mais uniquement pour pouvoir transmettre des informations par mail (e-mailing).
+        <br><br>
+         Pour plus d'informations, rends-toi sur la page <a href="/rgpd" target="_blank"><b><u>RGPD</u></b></a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
