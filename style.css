@@ -1,0 +1,94 @@
+/* box de l'accordeon */
+
+.accordion {
+  font-family: 'Trebuchet MS';
+  font-size: 1.4rem;
+  width: auto;
+  max-width: 500px;
+  min-width: 200px;
+  margin: auto;
+  height: auto;
+}
+
+/* item de l'accordeon */
+
+.accordion-item {
+  background-color: #fff;
+  color: #111;
+  margin: 1rem 0;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+/* titre de l'item de l'accordeon */
+
+.accordion-item-header {
+  padding: 10px 0px 10px 20px;
+  min-height: 70px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+  text-align: left;
+}
+
+.accordion-item-header span{
+  max-width: 80%;
+}
+
+/*mode fermé */
+
+.accordion-item-body {
+  font-size: 1.4rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+}
+
+/* intérieur */
+
+.accordion-item-body-content {
+  padding: 20px;
+  border-top: 1px solid rgb(231, 231, 231);
+  width: auto;
+  min-height: 70px;
+  height: auto;
+  text-align: left;
+}
+
+.icon,
+.icon:after {
+  --taille: 16px;
+  --stroke: 2px;
+  display: inline-block;
+  box-sizing: border-box;
+  background: black;
+  /* border-radius: 10px; */ /*pour ajouter des arondi*/
+  transition: transform .3s ease-in-out;
+}
+
+.icon {
+  margin-right: 20px;
+  position: relative;
+  width: var(--taille);
+  height: var(--stroke);
+}
+
+.icon:after {
+  content: "";
+  position: absolute;
+  width: var(--stroke);
+  height: var(--taille);
+  /*-- Positionnement du trait vertical --*/
+  top: calc((var(--taille) / -2) - (var(--stroke) / -2)); 
+  /*-- top = height/-2 - width/-2 --*/
+  left: calc((var(--taille) / 2) - (var(--stroke) / 2));
+  /*-- left = height/2 - width/2 --*/
+} 
+
+.accordion-item-header.active2 .icon:after {
+  transform: rotate(-90deg);	
+  transition: transform .3s ease-out;
+} 
